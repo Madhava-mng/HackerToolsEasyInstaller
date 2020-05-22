@@ -506,6 +506,10 @@ def _menu_():
             else:
                 break
         _menu_banner_(_option_)
+try:
+    _menu_()
+except KeyboardInterrupt:
+    bash("clear")
+    print("[\u001b[31;1m!\u001b[0m] \u001b[37;4;1mKeyboardInterrupt\u001b[0m ")
 
-_menu_()
 
