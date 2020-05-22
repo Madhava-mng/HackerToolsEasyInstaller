@@ -1,6 +1,11 @@
 #!/usr/bin/python3
-from getkey import getkey,keys
 from os import system as bash
+try:
+    from getkey import getkey,keys
+except:
+    print("[\u001b[31;1m!\u001b[0m] module 'getkey' not installed.To install module run '\u001b[32;4;1mpip3\u001b[0m\u001b[32;1m install getkey\u001b[0m'")
+    print("[\u001b[32;1m*\u001b[0m] pip press TAB two times, It will show your pip's highset version.Use that instead of pip3")
+    exit()
 from time import sleep as sleep
 bash("clear")
 def _question_banner_(_option_):
