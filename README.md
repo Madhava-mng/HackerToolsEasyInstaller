@@ -19,3 +19,5 @@ Easy way to install hacker's tools
 
 
 > `$ ./start.py`
+
+<img src=".image.jpg" />
