@@ -86,30 +86,39 @@ def _metasploit_():
 
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _fatrat_():
+    bash("clear")
     bash("git clone https://github.com/Screetsec/TheFatRat.git && cd TheFatRat && chmod +x setup.sh && ./setup.sh")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _nmap_():
+    bash("clear")
     bash("pkg install unstable-repo && pkg install nmap && apt-get install nmap")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _recon_ng_():
+    bash("clear")
     bash("git clone https://github.com/RED-5-CRACKERS/Recon-ng4Termux.git && cd Recon-ng4Termux && chmod +x setup.sh && ./setup.sh")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _macfinder_():
+    bash("clear")
     bash("git clone https://github.com/RED-5-CRACKERS/Mac_finder.git && cd Mac_finder && chmod +x setup && ./setup")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m") 
 def _john_():
+    bash("clear")
     bash("git clone https://github.com/magnumripper/JohnTheRipper.git")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _zipet_():
+    bash("clear")
     bash("git clone https://github.com/RED-5-CRACKERS/Zipet.git")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _cracknow_():
+    bash("clear")
     bash("git clone https://github.com/Madhava-mng/Cracknow.git")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _aircrack_():
+    bash("clear")
     bash("pkg install root-repo && pkg install aircrack-ng && apt-get install aircrack-ng")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _wifite_():
+    bash("clear")
     bash("git clone https://github.com/derv82/wifite2.git")
     print("\u001b[42;1m\u001b[37;1m            Processend              \u001b[0m")
 def _sfish_():
